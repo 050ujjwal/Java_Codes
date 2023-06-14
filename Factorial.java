@@ -6,9 +6,11 @@ public class Factorial {
         if(n==0){
             return 1;
         }
-        int choti=factorial(n-1);
-        int baddi=n*choti;
-        return baddi;
+        // different type for finding factorial
+        // int choti=factorial(n-1);
+        // int baddi=n*choti;
+        // return baddi;
+        return n*factorial(n-1);
     }
 
     public static void main(String[] args){
