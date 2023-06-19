@@ -12,7 +12,7 @@ public class HashMapImplement {
         for(int i=0;i<n;i++){
             int key = arr[i];
             int freq = 0;
-            if (hm.containsKey(key)) freq = hm.get(key); // fetching from the map
+            if (hm.containsKey(key)) freq = hm.get(key); 
             freq++;
             hm.put(key, freq);
         }
