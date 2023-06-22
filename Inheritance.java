@@ -16,7 +16,5 @@ public class Inheritance {
     public static void main(String arsgs[]){
         triangle t1=new triangle();
         
-
-
     }
 }
