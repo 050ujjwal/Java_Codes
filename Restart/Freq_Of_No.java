@@ -14,7 +14,10 @@ public class Freq_Of_No {
             if(hm.containsKey(arr[i])){
                 hm.put(arr[i], hm.get(arr[i])+1);
             }
+            else{
+                hm.put(i, 1);
+            }
         }
-        d
+        
     }
 }
