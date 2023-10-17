@@ -25,6 +25,8 @@ public class TwoStrings {
                 hm2.put((char) i, 1);
             }
         }
+        int[] arr1=new int[hm1.size()];
+        int[] arr2=new int[hm2.size()];
         
     }
 }
