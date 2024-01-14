@@ -10,8 +10,7 @@ The first line contains N, the number of integers in our list (N <= 100,000). Th
 
 Output
 For each query, output the answer to that query on its own line in the order the queries were made.
-
-Example
+Example:
 Input:
 3
 1 4 1
@@ -19,12 +18,10 @@ Input:
 1 1
 1 2
 0 2
-
 Output:
 4
 5
 6 */
-
 
 import java.util.*;
 
