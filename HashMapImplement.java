@@ -10,11 +10,10 @@ public class HashMapImplement {
         }
         HashMap<Integer, Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){
-            int key = arr[i];
             int freq = 0;
-            if (hm.containsKey(key)) freq = hm.get(key); 
+            if (hm.containsKey(arr[i])) freq = hm.get(arr[i]); 
             freq++;
-            hm.put(key, freq);
+            hm.put(arr[i], freq);
         }
         int q=sc.nextInt();
         while(q-->0){
